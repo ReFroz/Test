@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    color:white
+}
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 40%;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color:#373737;
+    color:rgb(208, 197, 197); 
+    box-shadow:0px 1px 50px rgb(106, 55, 20) ;
+    z-index:  10000;
+}
+.li-header{
+padding: 5px;
+list-style-type: none; 
+
+text-shadow: 1px 3px 5px rgb(216, 191, 191), 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(3, 3, 10);
+color: white;
+
+
+}
+
+.s2 {
+    position: relative;
+}
+
+.nav-header {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.ul-header{
+    display: flex;
+}
+.img-header{
+display: flex;
+margin-top: auto;
+margin-bottom: auto;
+margin-right: auto;
+padding: 5px;
+
+}
+button{
+border: none;
+outline: none;
+background-color: #373737;
+}
+.bread-main{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+filter: brightness(0.7);
+}
+.header_text{
+  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+    /* Вроде закончился header 
+    Начася fotter */
+
+
+
+
+    .img__foot{
+      max-width: 60%;
+
+    }
+
+
+   .li-header .img__foot {
+
+        
+    }
+.fo_ul1{
+display: flex;
+list-style-type: none; 
+}
+.fo_ul1 li{
+padding: 5px;
+}
+
+
+.fo_ul2{
+display: grid;
+list-style-type: none; 
+}
+.fo_ul2 li{
+padding: 5px;
+}
+
+
+.fo_ul3{
+display: grid;
+list-style-type: none; 
+}
+.fo_ul3 li{
+padding: 5px;
+}
+.foot ul li a {
+  text-decoration: none;
+  color:#373737; 
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #373737;
+    margin-top:40px;
+}
+
+
+.footer__col {
+    flex: 1 2 33.3333%;
+}
+
+.section_2 {
+
+
+ 
+}
+
+
+.section_2 .h2_1{
+   text-align: center;
+   margin-bottom:30px;
+    background-color: #d2c1b5;
+    padding:30px;
+    margin-top:-25px;
+    color: #373737;
+   
+   
+}
+.border_1:hover{
+    box-shadow: 10px 10px 10px 5px #f7ceb1;
+    transition: .3s ease;
+    border:solid 1px #f7ceb1;
+}
+.border_1:not(:hover){
+transition: .7s;
+
+}
+.div_line{
+
+    width: 300px;
+}
+.h3_p{
+padding:20px 
+
+}
+.section_2 .img__1{
+ margin-left: auto;
+
+
+}
+.image-wrapper{
+text-align: center;
+}
+.h3_1{
+    text-align: center;
+}
+.img__1{
+    height: 150px;
+    padding:15px
+}
+
+section ul li{
+    margin-top: 5px;
+    
+}
+
+
+.div_1{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    list-style-type: none;
+}
+
+
+
+.height_image{
+    height: 120px;
+    border-radius: 5%;
+    align-content: center;
+}
+.height_image:hover{
+    height: 120px;
+    border-radius: 5%;
+}
+.ul-bigger{
+    background-color: white;
+    overflow: hidden;
+}
+.ul-bigger p{
+    position: relative;
+   
+    
+    
+}
+.ul-bigger:hover
+ {
+    width:300px;
+    margin-left:auto;
+    background-color: white;
+    transform: scale(1.2);
+    transition: ease 1s;
+    z-index: 100;
+
+}
+.ul-bigger:not(:hover){
+    transition: .7s;
+}
+
+.nice_kom{
+position:relative;
+width:80px;
+height: 30px;
+background-color: rgb(28, 197, 36);
+border-radius: 10%;
+left:300px;
+top:300px;
+text-align:center;
+font-weight: 800;
+
+}
+.bad_kom{
+position:relative;
+width:80px;
+height: 30px;
+background-color: rgb(226, 33, 33);
+border-radius: 10%;
+left:300px;
+top:300px;
+text-align:center;
+font-weight: 800;
+
+
+}
+.section_3:hover{
+    box-shadow:inset 0 0 10px 10px #d2c1b5;
+    padding:50px;
+    transition: ease 2s;
+    transition: 1s ;
+    background-color: rgb(252, 249, 249);
+    
+    
+}
+.section_3:not(:hover){
+    transition: .5s;
+}
+.section_3 ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 20px));
+    justify-content: center;
+    gap: 50px;
+    min-width: 100px;
+    list-style-type: none;
+  
+}
+.section_3 ul li{
+    padding:5px;
+    border:3px solid #d2c1b5;
+    border-radius: 5%;
+   
+}
+.section_3 div{
+
+
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.ul_main{
+    display: grid;
+    gap:25px
+}
+
+.Otsivs{
+    text-align: center;
+    
+}
+.Otsivs ul{
+    /* text-align: center;
+    display: flex;
+    gap:40px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 50px;
+    min-width: 50px;
+    list-style-type: none;
+}
+.Otsivs ul li{
+    text-align: center;
+    padding:5px;
+    border:3px solid #d2c1b5;
+    border-radius: 5%;
+}
+.min{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* Начало блока towars */
+
+.ul2{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 40px;
+    list-style-type:none;
+    margin-bottom:50px;
+    margin-top:40px;
+  justify-content: center;
+    
+
+}
+.ul2 li {
+    text-align:center;
+    margin-top:10px;
+    gap:100px
+}
+.div_main{
+align-self: center;
+
+
+}
+.cell{
+width:300px;
+height:400px;
+background-color: #373737;
+border-radius: 10px ;
+margin-bottom: 30px;
+
+}
+
+.jpg{
+    border: 4px white solid;
+    border-radius: 5%;
+}
+
+.jpg:hover,.cell:hover{
+    box-shadow: 0 0 5px 5px #f7ceb1;
+}
+button{
+    position: relative;
+    text-align: center;
+    width:50px;
+    height:30px;
+    border-radius:5%;
+    background-color: rgb(190, 255, 40);
+    top:355px;
+    left:0px;
+    
+
+}
+button:hover{
+    box-shadow:inset 0 0 3px 4px  #f7ceb1;
+}
+button:active{
+    box-shadow: inset 0 0 3px 4px red;
+
+}
+.cell li p{
+color:white 
+
+}
+.cell li h4{
+    color:red;
+    margin-top:10px;
+    font-size:30px;
+
+}
+.Tow {
+    margin:40px 0 0 0;
+    text-align: center;
+    font-size: 30px;
+    margin-top:120px;
+    margin-left:-100px;
+}
+.Tow2{
+    text-align: center;
+    margin-left:-100px;
+    font-size: 20px;
+}
